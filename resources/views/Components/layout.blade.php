@@ -42,6 +42,7 @@
                             <x-nav-link href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-link>
                             <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
                             <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
+                            <x-nav-link href="/comments" :active="request()->is('contact')">Comments</x-nav-link>
                         </div>
                     </div>
                     <div class="hidden sm:ml-6 sm:flex sm:items-center">
